@@ -1,11 +1,6 @@
-﻿# Rust build
-target/
+﻿target/
 **/target/
-
-# Orchestrator generated reports (optional)
 orchestrator/reports/
-
-# OS/IDE
 .vscode/
 .idea/
 .DS_Store
