@@ -1,11 +1,11 @@
-﻿# Rust build artifacts
+﻿# Rust build
 target/
 **/target/
 
-# Orchestrator generated reports (optional to skip)
+# Orchestrator generated reports (optional)
 orchestrator/reports/
 
-# OS/IDE noise
+# OS/IDE
 .vscode/
 .idea/
 .DS_Store
