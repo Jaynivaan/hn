@@ -1,0 +1,10 @@
+#Gateway (Agni) -MVP-1
+
+##Objectives
+-/health -> 200 + {"ok": true}
+
+## Test
+curl.exe -i http://127.0.0.1:8080/health
+or
+if powershell command
+Invoke-WebRequest -Uri http://127.0.0.1:8080/health

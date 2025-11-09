@@ -1,0 +1,24 @@
+﻿{
+    "tag":  "v0.2.0",
+    "objectives":  [
+                       "Set up Gateway repo and README",
+                       "Expose /health endpoint returning {\"ok\": true}",
+                       "Add basic headers (CSP, HSTS, XFO) via config or middleware",
+                       "Document curl tests in README"
+                   ],
+    "status":  "tests_passed",
+    "phase":  "MVP-2",
+    "tests":  {
+                  "headers":  "curl -sI http://localhost:8080/ | findstr /I \"content-security-policy strict-transport-security x-frame-options x-content-type-options\"",
+                  "health":  "curl -i http://localhost:8080/health -\u003e 200 + {\"ok\":true}"
+              },
+    "chamber":  "gateway",
+    "rta_alignment":  "Agni — purifies all flows before entry",
+    "definition_of_done":  [
+                               "All objectives pass locally",
+                               "README: what/why/how + commands",
+                               "progress.log updated with Reflection note",
+                               "Tag v0.2.0 in repo"
+                           ],
+    "port":  8080
+}

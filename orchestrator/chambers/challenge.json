@@ -1,0 +1,23 @@
+﻿{
+    "tag":  "v0.1.0",
+    "objectives":  [
+                       "POST /challenge/issue (nonce,difficulty,expires_at)",
+                       "POST /challenge/verify (burn nonce, mint single-use token)",
+                       "GET /protected/ping (requires X-Proof; single-use consume)",
+                       "Background GC to clear expired nonces/tokens"
+                   ],
+    "status":  "tests_passed",
+    "phase":  "MVP-1",
+    "tests":  {
+                  "e2e":  "Issue→Solve→Verify→Protected: 200 first use; 401 on reuse; 429 when missing header"
+              },
+    "chamber":  "challenge",
+    "rta_alignment":  "Indra — tests rightful awareness",
+    "definition_of_done":  [
+                               "All endpoints pass local curls",
+                               "Single-use token verified",
+                               "GC loop active",
+                               "Tag v0.1.0 in repo"
+                           ],
+    "port":  8081
+}

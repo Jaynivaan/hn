@@ -1,0 +1,24 @@
+[workspace]
+members = [
+    "hn-gateway",
+    "hn-challenge",
+    
+]
+resolver = "2"
+
+[workspace.package]
+edition = "2021"
+authors = ["jayakrishnanParameswarankutty"]
+description = "HN Monorepo - Gateway, Challenge "
+license = "MIT"
+
+[workspace.dependencies]
+actix-web = "4"
+serde = {version = "1", features = ["derive"]}
+serde_json = "1"
+time = {version ="0.3", features = ["macros"]}
+rand = "0.8"
+sha2 = "0.10"
+once_cell = "1.19"
+hex = "0.4"
+
