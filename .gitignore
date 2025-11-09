@@ -1,0 +1,12 @@
+﻿# Rust build artifacts
+target/
+**/target/
+
+# Orchestrator generated reports (optional to skip)
+orchestrator/reports/
+
+# OS/IDE noise
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
