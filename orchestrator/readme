@@ -12,3 +12,18 @@ To coordinate all Chambers, maintain Rta (cosmic order), and track the rhythm of
 **Phase:** MVP-1  
 **Deity Essence:** Rta (Cosmic Order)  
 **Current Focus:** Initialization and auto-tracking setup.
+=============================================================
+## Repos/Crates
+- `hn-gateway` (Agni) — Security headers, `/health`
+- `hn-challenge` (Indra) — PoA: `issue` → `verify` → `protected`
+- `orchestrator` — `index.json`, `chambers/*.json`, `health.ps1`
+
+## Quick Start
+```bash
+# Gateway
+cd hn-gateway && cargo run
+# http://127.0.0.1:8080/health
+
+# Challenge
+cd ../hn-challenge && $env:ENABLE_SEC_HEADERS="true"; cargo run
+# POST /challenge/issue -> solve -> POST /challenge/verify -> GET /protected/ping

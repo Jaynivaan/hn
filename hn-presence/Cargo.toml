@@ -1,0 +1,18 @@
+[package]
+name = "hn-presence"
+version = "0.1.0"
+edition.workspace = true
+authors.workspace = true
+description.workspace = true
+license.workspace = true
+
+[dependencies]
+actix-web ={ workspace = true}
+serde ={ workspace = true }
+serde_json = { workspace = true }
+once_cell ={ workspace = true }
+time ={ workspace = true }
+sha2 ={ workspace = true}
+env_logger = { workspace = true}
+log = { workspace = true}
+subtle = { workspace = true}
