@@ -3,3 +3,6 @@
 [2025-11-09T22:37:31.5370690Z] Challenge MVP-1 sealed: PoA E2E 200?401?429.
 [2025-11-09T17:38:09-05:00] Health check: 6 present, 0 missing
 [2025-11-09T17:49:19-05:00] Health check: 6 present, 0 missing
+[2025-11-10T17:32:03.7753135Z] Presence MVP-1: derive+verify passing.
+[2025-11-10T18:57:28.8627908Z] Presence MVP-1: derive+verify passing; headers toggle verified.
+[2025-11-10T19:04:31.4608663Z] Presence MVP-1: derive+verify passing; smoke script OK.

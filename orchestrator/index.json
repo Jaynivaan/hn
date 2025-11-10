@@ -1,6 +1,6 @@
 ﻿{
-    "phase":  "MVP-2",
-    "last_update":  "2025-11-09T17:49:19-05:00",
+    "phase":  "MVP-1",
+    "last_update":  "2025-11-10T19:04:31.4442836Z",
     "chambers":  {
                      "gateway":  {
                                      "status":  "tests_passed",
@@ -15,8 +15,10 @@
                                        "port":  8081
                                    },
                      "presence":  {
-                                      "status":  "not_initialized",
-                                      "rta_alignment":  "Vayu - breath of identity"
+                                      "status":  "tests_passed",
+                                      "rta_alignment":  "Vayu — breath of identity",
+                                      "tag":  "v0.1.0",
+                                      "port":  8082
                                   },
                      "auth":  {
                                   "status":  "not_initialized",
