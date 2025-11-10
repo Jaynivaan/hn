@@ -1,6 +1,13 @@
-﻿target/
+﻿# Rust build artifacts
 **/target/
+**/*.pdb
+**/*.exe
+
+# Presence/Gateway local logs & reports
+hn-presence/test_scripts/*.tmp
 orchestrator/reports/
+
+# IDE/system
 .vscode/
 .idea/
 .DS_Store
