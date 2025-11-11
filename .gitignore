@@ -1,14 +1,47 @@
-﻿# Rust build artifacts
-**/target/
-**/*.pdb
-**/*.exe
+﻿# ===================================
+# 🔱 HN Chamber Git Ignore Template
+# ===================================
 
-# Presence/Gateway local logs & reports
-hn-presence/test_scripts/*.tmp
-orchestrator/reports/
+# Rust build output
+/target/
 
-# IDE/system
+# Cargo lock if it’s a library crate
+Cargo.lock
+
+# Debug / release binaries
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Logs and temp data
+*.log
+*.tmp
+*.bak
+
+# Environment configs
+.env
+.env.local
+
+# IDE / Editor folders
 .vscode/
 .idea/
+*.iml
+
+# OS junk
 .DS_Store
 Thumbs.db
+desktop.ini
+
+# PowerShell cache or history
+*.ps1history
+
+# Node / Frontend (if added later)
+node_modules/
+dist/
+build/
+
+# Custom HN flow directories (local only)
+progress.log
+health.ps1
+index.json

@@ -6,3 +6,4 @@
 [2025-11-10T17:32:03.7753135Z] Presence MVP-1: derive+verify passing.
 [2025-11-10T18:57:28.8627908Z] Presence MVP-1: derive+verify passing; headers toggle verified.
 [2025-11-10T19:04:31.4608663Z] Presence MVP-1: derive+verify passing; smoke script OK.
+[2025-11-11T07:16:19.9604087Z] Auth ? status=tests_passed, tag=v0.1.0
